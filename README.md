@@ -2,8 +2,7 @@
 
 //起本地服务，反向代理改动
 
-
-server {
+    server {
         listen       8088;  //反代理  端口号
         server_name  localhost;    //本地
 
@@ -12,5 +11,6 @@ server {
             index  index.html index.htm;     //  默认跳转页面（可写可不写）
         }  
     }
+    
     
 // 其他地方无需改动
